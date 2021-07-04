@@ -155,5 +155,17 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background: #b30000;
   }
+  .navbar-toggler {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  .navbar-toggler:active {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  .fa-grip-lines {
+    color: #CCCDCD;
+    font-size: 2rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

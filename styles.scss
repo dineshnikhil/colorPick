@@ -171,4 +171,17 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background: #b30000; 
   }
+
+  .navbar-toggler {
+      box-shadow: none !important;
+
+      &:active {
+          box-shadow: none !important;
+      }
+  }
+
+  .fa-grip-lines {
+      color: #CCCDCD;
+      font-size: 2rem;
+  }
 }
