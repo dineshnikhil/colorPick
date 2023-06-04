@@ -1,0 +1,23 @@
+.shades_div {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 80%;
+	padding: 5%;
+
+	margin: 0 auto;
+}
+
+.shade_div {
+	width: 20%;
+	height: 20vh;
+	margin: 2%;
+
+	border-radius: 1rem;
+	transition: 0.2s ease-in-out;
+}
+
+.shade_div:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
