@@ -1,11 +1,14 @@
 import './App.css';
-import Demo from './components/Demo';
+import Nav from './components/Nav';
+import Home from './pages/Home';
 
 function App() {
 	return (
 		<div className="App">
-			<h1>color boxes comes here</h1>
-			<Demo />
+			<Nav />
+			<main>
+				<Home />
+			</main>
 		</div>
 	);
 }
