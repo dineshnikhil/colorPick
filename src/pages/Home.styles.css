@@ -1,3 +1,12 @@
 .home_div {
 	padding: 7% 0;
 }
+
+.home_action_div {
+	padding: 0% 5%;
+	display: flex;
+	justify-content: space-around;
+
+	width: 80%;
+	margin: 5% auto;
+}
