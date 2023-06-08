@@ -36,3 +36,10 @@
 	cursor: pointer;
 	transform: scale(1.1);
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+	.shade_div {
+		width: 40%;
+		margin: 4%;
+	}
+}

@@ -17,3 +17,17 @@
 .nav_child_div {
 	width: 25%;
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+	.nav_div {
+		padding: 3% 0;
+	}
+
+	.nav_div h2 {
+		font-size: 1.2rem;
+	}
+
+	.nav_child_div {
+		width: 40%;
+	}
+}

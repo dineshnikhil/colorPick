@@ -1,0 +1,8 @@
+.footer_div {
+	background-color: var(--sec_color);
+	color: var(--bg_color);
+	text-align: center;
+
+	/* width: 100%; */
+	padding: 10% 0;
+}
