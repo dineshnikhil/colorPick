@@ -37,15 +37,23 @@ const shades = [
 function Home() {
 	return (
 		<div className="home_div">
-			<h1>color boxes comes here</h1>
-			<div className="home_action_div">
-				{shades.map((shade) => {
-					var shade_color = '#' + shade.shade;
-					var myStyle = {
-						backgroundColor: shade_color,
-					};
-					return <ColorButton content={shade.name} myStyle={myStyle} />;
-				})}
+			<div className="home_content_div">
+				<h1>
+					Fuel Your Creativity with Precision: Seamlessly Capture and Implement
+					HexaCode Colors for Unparalleled Visual Impact!
+				</h1>
+				<div className="home_action_div">
+					{shades.map((shade) => {
+						var shade_color = '#' + shade.shade;
+						var myStyle = {
+							backgroundColor: shade_color,
+						};
+						return <ColorButton content={shade.name} myStyle={myStyle} />;
+					})}
+				</div>
+				<div>
+					<h2>Click. Copy. Create. Unlock Colors Instantly</h2>
+				</div>
 			</div>
 			<Demo />
 		</div>

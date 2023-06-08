@@ -1,6 +1,13 @@
+html {
+	scroll-behavior: smooth;
+}
+
 :root {
-	--bg_color: #1c1c1c;
-	--color: #cccdcd;
+	--bg_color: #252422;
+	--color: #fffcf2;
+	--sec_color: #ccc5b9;
+	--primary: #eb5e28;
+	--secondary: #403d39;
 }
 
 body {
