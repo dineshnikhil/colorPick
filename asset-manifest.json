@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dineshnikhil/apexlegends/static/css/main.d94494c8.css",
+    "main.js": "/dineshnikhil/apexlegends/static/js/main.eb5bc091.js",
+    "static/js/787.becfa703.chunk.js": "/dineshnikhil/apexlegends/static/js/787.becfa703.chunk.js",
+    "index.html": "/dineshnikhil/apexlegends/index.html",
+    "main.d94494c8.css.map": "/dineshnikhil/apexlegends/static/css/main.d94494c8.css.map",
+    "main.eb5bc091.js.map": "/dineshnikhil/apexlegends/static/js/main.eb5bc091.js.map",
+    "787.becfa703.chunk.js.map": "/dineshnikhil/apexlegends/static/js/787.becfa703.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d94494c8.css",
+    "static/js/main.eb5bc091.js"
+  ]
+}
